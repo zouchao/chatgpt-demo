@@ -28,7 +28,7 @@ export default (props: Props) => {
               <Show when={props.canEdit()} fallback={<IconEnv />}>
                 <span onClick={() => props.setCurrentSystemRoleSettings('')} class="sys-edit-btn p-1 rd-50%" > <IconX /> </span>
               </Show>
-              <span>System Role: </span>
+              <span>设定角色:</span>
             </div>
             <div class="mt-1">
               {props.currentSystemRoleSettings()}
